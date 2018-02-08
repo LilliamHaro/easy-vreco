@@ -15,8 +15,8 @@
  - Google maps
 
 **Trazado de rutas:**
-![RECURSOS](assets/images/maps-1.png)
+![RECURSOS](assets/maps-1.png)
 
 
 **Ubicacion actual del usuario**
-![RECURSOS](assets/images/maps-2.png)
+![RECURSOS](assets/maps-2.png)
