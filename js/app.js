@@ -37,6 +37,8 @@ function initMap() {
         map.setCenter({
           lat: coordenadas.latitude,
           lng: coordenadas.longitude});
+      }, function(error) {
+        alert('No podemos mostrar tu ubicación actual sin tu permiso');
       });
     }
   }
@@ -56,6 +58,7 @@ function initMap() {
     var directionsRequest = {
       origin: originPoint.value,
       destination: destinyPoint.value,
+      // travelMode: 'BICYCLING' ----> Las indicaciones para llegar en bicicleta no estan disponibles para Perú
       travelMode: 'DRIVING'
     };
     directionsService.route(directionsRequest, function(result, status) {
