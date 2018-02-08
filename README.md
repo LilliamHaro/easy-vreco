@@ -23,4 +23,5 @@
 
 
 **Vista Mobile**
-![RECURSOS](assets/mobile.png)
+
+- ![RECURSOS](assets/mobile.png)
