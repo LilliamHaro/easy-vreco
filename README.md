@@ -11,7 +11,7 @@
 
  - HTML5
  - CSS3
- - javascript
+ - Javascript
  - Google maps
 
 **Trazado de rutas:**
@@ -20,3 +20,7 @@
 
 **Ubicacion actual del usuario**
 ![RECURSOS](assets/maps-2.png)
+
+
+**Vista Mobile**
+![RECURSOS](assets/mobile.png)
