@@ -52,8 +52,21 @@ function initMap() {
   var directionsDisplay = new google.maps.DirectionsRenderer();
   var directionsService = new google.maps.DirectionsService();
   // calculando la ruta
-  //
-  //
+  var calcRoute = function(directionsService, directionsDisplay) {
+    var directionsRequest = {
+      origin: originPoint.value,
+      destination: destinyPoint.value,
+      travelMode: 'DRIVING'
+    };
+    directionsService.route(directionsRequest, function(result, status) {
+      if (status === 'OK') {
+        directionsDisplay.setDirections(result);
+      }
+    });
+    directionsDisplay.setMap(map);
+    // ocultando marcador
+    marker.setMap(null);
+  };
   window.addEventListener('load', function(event) {
     document.getElementById('btn').addEventListener('click', function(event) {
       calcRoute(directionsService, directionsDisplay);
