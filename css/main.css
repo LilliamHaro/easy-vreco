@@ -1,0 +1,57 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.height-10 {
+  height: 10vh;
+}
+.height-90 {
+  height: 90vh;
+  width: 100%;
+}
+.height-20 {
+  height: 10vh;
+}
+.flex {
+  display: block;
+}
+.float-left {
+  float: left;
+}
+.width-150 {
+  width: 150px;
+}
+.input {
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 3px;
+}
+.btn {
+  background-color: gold;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  font-weight: bold;
+}
+.mg-25 {
+  margin-right: 18px;
+}
+.pd-25 {
+  padding-top: 25px;
+}
+hr {
+  height: 4px;
+  background-color: black;
+  margin: 0;
+}
+@media (min-width: 490px) {
+  .height-10 {
+    height: 10vh;
+  }
+  .flex {
+    display: flex;
+    justify-content: center;
+    align-items: center
+  }
+}
